@@ -402,6 +402,9 @@ li {
 
 figure.image {
   margin-bottom: 0;
+  -webkit-box-shadow: 7px 10px 15px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 15px -4px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 15px -4px rgba(0,0,0,0.75);
 }
 
 .title a {
