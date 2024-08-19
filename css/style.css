@@ -9149,11 +9149,11 @@ Section Title
   color: #adadad;
 }
 .footer-style-two .footer-bottom .inner-container a {
-  width: 17px;
-  height: 17px;
+/*  width: 17px;*/
+/*  height: 17px;*/
   text-align: center;
   line-height: 17px;
-  background-color: var(--theme-color1);
+/*  background-color: var(--theme-color1);*/
   border-radius: 50%;
   display: inline-block;
   font-size: 12px;
