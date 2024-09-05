@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Services | Angel Spa Nail</title>
+    <title>Booking | Angel Spa Nail</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
@@ -15,6 +15,7 @@
   </head>
   <body>
     <div class="page-wrapper">
+      <div class="preloader"></div>
       <header class="main-header header-style-two">
         <div class="auto-container">
           <div class="header-top">
@@ -25,7 +26,6 @@
                   VENICE, FL 34285</span
                 >
               </div>
-
               <div class="top-right">
                 <ul class="social-icon-one">
                   <li>Follow Us :</li>
@@ -33,7 +33,7 @@
                     <a href="#"><i class="fab fa-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                   </li>
                   <li>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -45,17 +45,14 @@
               </div>
             </div>
           </div>
-
           <div class="main-box">
             <div class="logo-box">
               <div class="logo">
-                <!-- <a href="index.html"><img src="images/logo-v5-black.png" alt title="Hoexr"/></a> -->
                 <a href="index.html" style="font-size: 22px; font-weight: bold"
                   >Logo Here</a
                 >
               </div>
             </div>
-
             <div class="nav-outer">
               <nav class="nav main-menu">
                 <ul class="navigation">
@@ -87,7 +84,6 @@
               </div>
             </div>
           </div>
-
           <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <nav class="menu-box">
@@ -115,19 +111,19 @@
                     <span class="icon lnr-icon-envelope1"></span>
                     <span class="title">Send Email</span>
                     <a
-                      href="mailto: nguyenhoangvu2810@gmail.com"
+                      href="mailto: NGUYENHOANGVU2810@GMAIL.COM"
                       style="color: #fff !important"
-                      >nguyenhoangvu2810@gmail.com</a
+                      >NGUYENHOANGVU2810@GMAIL.COM</a
                     >
                   </div>
                 </li>
                 <!-- <li>
-                     <div class="contact-info-box">
-                       <span class="icon lnr-icon-clock"></span>
-                       <span class="title">Send Email</span>
-                       Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-                     </div>
-                   </li> -->
+                           <div class="contact-info-box">
+                             <span class="icon lnr-icon-clock"></span>
+                             <span class="title">Send Email</span>
+                             Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                           </div>
+                           </li> -->
               </ul>
               <ul class="social-links">
                 <li>
@@ -145,7 +141,6 @@
               </ul>
             </nav>
           </div>
-
           <div class="search-popup">
             <span class="search-back-drop"></span>
             <button class="close-search">
@@ -166,25 +161,20 @@
               </form>
             </div>
           </div>
-
           <div class="sticky-header">
             <div class="auto-container">
               <div class="inner-container">
                 <div class="logo">
-                  <a
-                    href="index.html"
-                    style="font-size: 22px; font-weight: bold"
-                    >Angel Spa Nail</a
-                  >
+                  <a href="index.html"
+                    ><img src="images/logo-v5-black.png" alt
+                  /></a>
                 </div>
-
                 <div class="nav-outer">
                   <nav class="main-menu">
                     <div class="navbar-collapse show collapse clearfix">
                       <ul class="navigation clearfix"></ul>
                     </div>
                   </nav>
-
                   <div class="mobile-nav-toggler">
                     <span class="icon lnr-icon-bars"></span>
                   </div>
@@ -200,45 +190,174 @@
       >
         <div class="auto-container">
           <div class="title-outer text-center">
-            <h1 class="title">Service</h1>
+            <h1 class="title">Booking</h1>
             <ul class="page-breadcrumb">
               <li><a href="index.html">Home</a></li>
-              <li>service</li>
+              <li>Booking</li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
+      <section class="contact-details">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
-              <img
-                src="./images/resource/medicure.png"
-                alt=""
-                class="manicure-image icon-box wow fadeInUp"
-              />
-            </div>
-            <div class="col-lg-7 icon-box wow fadeInUp">
-              <h3>Manicure</h3>
-              <p style="text-align: justify; padding-left: 8px">
-                A nail spa manicure is a luxurious and therapeutic treatment
-                designed to pamper your hands and nails. This service typically
-                begins with a warm soak to soften the skin and nails, followed
-                by a gentle exfoliation to remove dead skin cells. The nails are
-                then carefully trimmed, shaped, and buffed to perfection.
-                Cuticle care is provided to ensure healthy nail growth, and a
-                relaxing hand massage with moisturizing lotion follows to
-                hydrate and rejuvenate the skin.
-              </p>
+            <div class="col-xl-12 col-lg-6">
+              <div class="sec-title">
+                <span class="sub-title before-none"
+                  >Your Perfect Nails Await – Book Your Glam Session Now!</span
+                >
+                <h2>ONLINE BOOKING</h2>
+              </div>
+              <form id="contact_form" name="contact_form" method="post">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="mb-3">
+                      <label
+                        >Select Technician<span class="text-danger"
+                          >*</span
+                        ></label
+                      >
+                      <select class="form-control">
+                        <option value="">Select technician</option>
+                        <option value="ANDY">
+                          ANDY (Work: Mon,Tue,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="FRANKY">
+                          FRANKY (Work: Mon,Tue,Wed,Thu,Fri,Sat)
+                        </option>
+                        <option value="HANNA">
+                          HANNA (Work: Mon,Tue,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="HELEN">
+                          HELEN (Work: Mon,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="HENRY">
+                          HENRY (Work: Mon,Tue,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="JOHN">
+                          JOHN (Work: Mon,Tue,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="JULIE">
+                          JULIE (Work: Mon,Tue,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="KAYLA">
+                          KAYLA (Work: Mon,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="LANA">
+                          LANA (Work: Mon,Tue,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="MI NI">
+                          MI NI (Work: Mon,Tue,Wed,Thu,Fri,Sat,Sun)
+                        </option>
+                        <option value="NGOC">NGOC (Work: Sun)</option>
+                        <option value="NORA">NORA (Work: Sun)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="mb-3">
+                      <label
+                        >Select service
+                        <span class="text-danger">*</span></label
+                      >
+                      <select class="form-control">
+                        <option value="">Select service</option>
+                        <option value="DIP NAILS">DIP NAILS</option>
+                        <option value="GEL POLISH">GEL POLISH</option>
+                        <option value="MANICURE">MANICURE</option>
+                        <option value="MANICURE GEL">MANICURE GEL</option>
+                        <option value="NAIL FILL">NAIL FILL</option>
+                        <option value="NAIL FULLSET">NAIL FULLSET</option>
+                        <option value="PEDICURE">PEDICURE</option>
+                        <option value="POLISH CHANGE">POLISH CHANGE</option>
+                        <option value="WAXING">WAXING</option>
+                        <option value="X.OTHER SERVICES">
+                          X.OTHER SERVICES
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label
+                        >Pick date <span class="text-danger">*</span></label
+                      >
+                      <input
+                        name="form_email"
+                        class="form-control required"
+                        type="date"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label
+                        >Pick Time <span class="text-danger">*</span></label
+                      >
+                      <input
+                        name="form_email"
+                        class="form-control required"
+                        type="time"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label>Name <span class="text-danger">*</span></label>
+                      <input
+                        name="form_phone"
+                        class="form-control"
+                        type="text"
+                        placeholder="Enter Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label
+                        >Phone Number <span class="text-danger">*</span></label
+                      >
+                      <input
+                        name="form_subject"
+                        class="form-control required"
+                        type="number"
+                        placeholder="Enter Phone Number"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label>Notes</label>
+                  <textarea
+                    name="form_message"
+                    class="form-control required"
+                    rows="7"
+                    placeholder="Enter Notes"
+                  ></textarea>
+                </div>
 
-              <a href="booking.html" class="theme-btn btn-style-one"
-                ><span class="btn-title">Book Now</span></a
-              >
+                <div class="mb-5">
+                  <input
+                    name="form_botcheck"
+                    class="form-control"
+                    type="hidden"
+                    value
+                  />
+                  <button
+                    type="submit"
+                    class="theme-btn btn-style-one"
+                    data-loading-text="Please wait..."
+                  >
+                    <span class="btn-title">Submit</span>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </section>
-
       <footer class="main-footer footer-style-two">
         <div class="widgets-section">
           <div class="auto-container">
@@ -276,7 +395,6 @@
                   </div>
                 </div>
               </div>
-
               <div
                 class="footer-column col-lg-4 col-sm-6 mb-0"
                 style="display: flex; justify-content: center"
@@ -329,7 +447,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="footer-column col-lg-4 col-sm-6">
                 <div
                   class="footer-widget blog-widget wow fadeInLeft"
@@ -345,9 +462,9 @@
                         <div class="post-info">
                           <i class="fa fa-envelope"></i>
                           <a
-                            href="mailto: nguyenhoangvu2810@gmail.com"
+                            href="mailto: NGUYENHOANGVU2810@GMAIL.COM"
                             style="color: #fff !important"
-                            >nguyenhoangvu2810@gmail.com</a
+                            >NGUYENHOANGVU2810@GMAIL.COM</a
                           >
                         </div>
                         <div class="post-info">
@@ -368,7 +485,6 @@
             </div>
           </div>
         </div>
-
         <div class="footer-bottom wow slideInUp">
           <div class="auto-container">
             <div class="inner-container">
@@ -389,6 +505,7 @@
         </div>
       </footer>
     </div>
+
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -398,5 +515,18 @@
     <script src="js/appear.js"></script>
     <script src="js/owl.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    </style>
   </body>
 </html>
